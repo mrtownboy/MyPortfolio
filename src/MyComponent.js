@@ -27,14 +27,8 @@ function MyComponent() {
         </h2>
         <section id="about" className="about-container">
           <aside className="about-photo">
-            <img
-              src="Faces.jpg"
-              alt="Your Photo"
-              width="310"
-              height="420"
-              loading="lazy"
-              className="faces"
-            />
+            <img src="/images/my-image.jpg" alt="My Image" />
+
           </aside>
           <div className="about-content">
             <p>
