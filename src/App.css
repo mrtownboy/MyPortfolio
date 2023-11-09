@@ -1,0 +1,195 @@
+  * {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* color: white; */
+  }
+
+  .content-container .heading{
+    color: white;
+  }
+  
+  body {
+    background-color: #0F172A;
+    margin: auto;
+    padding: 2% 10%;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .heading {
+    font-size: 500%;
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #05AFF2; /* Britney's blue color */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #05AFF2; /* Britney's blue color */
+  }
+
+  h2 {
+    font-weight: bold;
+    color: #f4f4f4; /* Britney's blue color */
+  }
+
+  p {
+    color: #05AFF2; /* Britney's blue color */
+  }
+
+  li {
+    color: #05AFF2; /* Britney's blue color */
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: #05AFF2;
+  }
+
+  .navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+  }
+
+  .nav-links li:hover {
+    text-transform: uppercase;
+    text-decoration: solid;
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+
+  .carousel {
+    color: aqua;
+  }
+
+  section {
+    margin: 40px 0;
+  }
+
+  .about-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-photo {
+    flex: 1;
+    padding: 100px;
+  }
+
+  .about img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .faces {
+    border-radius: 10rem 10rem 0 0;
+  }
+
+  .about-content {
+    font-size: 150%;
+    line-height: 150%;
+    font-weight: 800;
+  }
+
+  footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: #05AFF2; /* Britney's blue color */
+  }
+
+  footer h3 {
+    font-weight: bold;
+  }
+
+  .experience-section, .education-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0px 0px 30px -20px;
+    padding: 0px -10px 10px 10px;
+  }
+
+  .experience-content ul, .education-content ul {
+    color:#05AFF2;
+  }
+
+  .hobbies-content {
+    color:#05AFF2;
+  }
+
+  .experience-title, .education-title, .experience-content, .education-content {
+    flex: 1;
+    padding: 0px 20px;
+  }
+
+/* Apply hover effect to each experience item separately */
+.experience-item:hover {
+  background-color: #36444b;
+  color: #05AFF2;
+  /* Add a smooth transition if needed */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Apply hover effect to each education item separately */
+.education-item:hover {
+  background-color: #36444b;
+  color: #05AFF2;
+  /* Add a smooth transition if needed */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+  .experience-content {
+    animation: fadeIn 0.5s;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: skyblue;
+  }
+
+  li {
+    font-size: 15px;
+  }
+
+
+  /* Add margin to the second experience item to create space */
+  .experience-section .experience-content li + li {
+    margin-top: 20px;} 
+  .education-section .education-content li + li {
+    margin-top: 20px; }
+
+/* Apply hover effect to the span element within each hobby item separately */
+.hobby-item span:hover {
+  background-color: #36444b;
+  color: #05AFF2;
+  /* Add a smooth transition if needed */
+  transition: background-color 0.3s, color 0.3s;
+}
+
