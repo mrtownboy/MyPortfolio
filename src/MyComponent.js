@@ -28,7 +28,7 @@ function MyComponent() {
         <section id="about" className="about-container">
           <aside className="about-photo">
             <img
-              src="https://www.seanhalpin.xyz/about/faces.jpg"
+              src="IMG_2855.jpg"
               alt="Your Photo"
               width="310"
               height="420"
